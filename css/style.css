@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    
+    justify-content: flex-end;
+   
+}
+.nav li{
+    list-style-type: none;
+    padding: 8px;
+    margin: 5px;
+    display:inline-block;
+    
+}
+.nav a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+    
+
+.about{
+    position: inherit;
+    background-color: black;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    height: 400px;
+    background-image: url();
+}
+.about h1{
+    color: white;
+    font-style: bold;
+    font-size: 4rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.about p{
+    color: brown;
+    font-size: 2rem;
+    font-style:italic;
+    text-align: center;
+}
+.work{
+    background-color:#45567d;
+    padding-top:4rem;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.work-title{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-style: bold;
+}
+.work-line{
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    font-weight: 0px;
+    font-style: bold;
+
+    padding-bottom:2rem;
+    margin-bottom: 2rem;
+}
+img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+   
+}
+.workporfolio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 3rem auto;
+    margin-bottom: 3rem;
+    
+}
+.workporfolio a{
+    text-decoration: none;
+}
+.workporfolio a::after{
+    content:"/>"
+
+}
+.workporfolio p{
+    text-align:center;
+    height: 50px;
+    background-color: #303841;
+    color:white;
+    font-style:bold;
+    padding-top:1rem;
+    font-size: 1.4rem;
+    width: 100%;
+}
+.show-all{
+background-color: #303841;
+text-decoration: none;
+padding: 0.5rem;
+border-radius: 2px;
+display: inline;
+margin-left: 700px;
+
+color: white;
+font-size: 2rem;
+}
+.contact{
+    background-color: #303841;
+    height: 600px;
+}
+.contact h1 {
+    color:white;
+    font-style: bold;
+    font-weight: 12px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact p{
+    color:white;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+.list-contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+ 
+}
+.list-contact li{
+    list-style-type: none;
+    margin-bottom: 150px;
+   
+}
+.list-contact a{
+    text-decoration:none;
+    color: white;
+    font-size:1.5rem;
+    padding: 4px 8px;
+    align-items: center;
+}
+.paragraph{
+    display: inline-block;
+    padding: 50px 100px;
+    align-items: center;
+}
+    
